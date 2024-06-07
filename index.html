@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0">
+    <title>Hai 🤍</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #87CEEB, #6495ED);
+            font-family: 'Trebuchet MS', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            position: relative;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            background-color: #fff;
+        }
+        h1 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+        button {
+            padding: 10px 20px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+        button:hover {
+            background-color: #3e8e41;
+        }
+        img {
+            margin-top: 20px;
+            position: absolute;
+            top: 0;
+            z-index: 1;
+        }
+        .typed-out {
+            overflow: hidden;
+            border-right: 0.15em solid orange;
+            white-space: nowrap;
+            font-size: 1.6rem;
+            width: 0;
+            animation:
+                    typing 1s steps(20, end) forwards,
+                    blink 0.8s infinite;
+            color: #666;
+        }
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+        @keyframes blink {
+            from { border-right-color: orange }
+            to { border-right-color: transparent }
+        }
+    </style>
+</head>
+<body>
+<img src="image/cute-bear.gif">
+<div class="container">
+    <div class="typed-out">Hallo, Gabriela Marry Christiana Simanjuntak</div>
+    <button onclick="location.href='pages/letter.html'">Next</button>
+</div>
+</body>
+</html>
